@@ -32,3 +32,7 @@ Route::get('/checkout',function(){
 Route::get('/invoice',function(){
     return view('invoice');
 })->name('invoice');
+
+Route::get('/test',function(){
+    return view('test');
+})->name('test');
